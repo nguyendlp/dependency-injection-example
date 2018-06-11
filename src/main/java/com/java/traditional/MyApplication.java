@@ -18,7 +18,7 @@ public class MyApplication {
     // If we want to switch to some other advanced convert DependencyInjection in future, it will require code changes in this class.
     // It makes the application hard to scale...
     // Testing the application also will be difficult since this application is directly creating the IntegerConvertService
-    // instance. There is no way we can mock these object in test class.
+    // instance. There is no way we can mock these object in main class.
     // Got it?
 
     private IntegerConvertService service = new IntegerConvertService();
